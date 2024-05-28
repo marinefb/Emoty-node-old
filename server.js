@@ -4,9 +4,14 @@
     - Si l'url est '/emotions', le serveur récupére les émotions passées en paramètres et pilote les leds en fonction
 
     Lancement du serveur: 
+
     $ node server.js 
     ou mieux: 
     $ nodemon server.js
+    
+    Test du serveur:
+    - http://127.0.0.1:8765
+    - http://127.0.0.1:8765/emotions?sad=0&happy=100
     
 */
 
